@@ -10,6 +10,7 @@ import { FaInstagram } from "react-icons/fa";
 import { FaPinterest } from "react-icons/fa";
 import CartIcon from '../Carticon/Carticon';
 import { Link } from 'react-router-dom';
+import logo from '/src/assets/Imges/logo.png';
 export default function Navbar_list() {
   const [showSearch, setShowSearch] = useState(false);
   const [scrolled, setScrolled] = useState(false);
@@ -237,7 +238,8 @@ export default function Navbar_list() {
 
             {/* Center Image */}
             <div className="center-image" style={{ textAlign: 'center', marginRight: '0px' }}>
-              <img src="/src/assets/Imges/logo.png" alt="Your Image" className='ph' style={{ height: '40px', width: 'auto', marginLeft: '10px', }} />
+            <img src={logo} alt="Your Image" className='ph' style={{ height: '40px', width: 'auto', marginLeft: '10px' }} />
+
               <img src="https://biagiotti.qodeinteractive.com/wp-content/themes/biagiotti/assets/img/logo_white.png"  className='photo'style={{ height: '40px', width: 'auto', marginLeft: '10px',display:'none' }} />
             </div>
              {/* Simplified SHOP Dropdown */}

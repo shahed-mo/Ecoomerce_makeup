@@ -693,11 +693,7 @@ $side-menu-transition: 1.5s ease; // Increased the duration for slower opening
 
     button {
       padding: 10px 20px;
-      border: none;navbar .brand svg path {
-        fill: transparent !important;
-        transition: fill 0.5s ease-out;
-       
-    }
+      border: none;
       background: #007bff;
       color: #fff;
       border-radius: 4px;
@@ -979,3 +975,5 @@ $side-menu-transition: 1.5s ease; // Increased the duration for slower opening
 .carousel-indicators [data-bs-target] {
   display: none;
 }
+
+

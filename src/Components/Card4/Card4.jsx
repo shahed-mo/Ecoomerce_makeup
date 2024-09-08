@@ -1,5 +1,5 @@
 import React from 'react';
-import './card4.scss';
+import './Card4.scss';
 
 export default function Card4({ img, header, par, read, dateMonth, dateDay }) {
   return (

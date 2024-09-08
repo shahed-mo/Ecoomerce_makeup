@@ -1,0 +1,35 @@
+.tabs-container {
+    .wc-tabs {
+      list-style-type: none;
+      padding: 0;
+      display: flex;
+      border-bottom: 2px solid #ddd;
+  
+      li {
+        margin-right: 15px;
+  
+        a {
+          text-decoration: none;
+          padding: 10px;
+          display: block;
+          color: #555;
+  
+          &:hover {
+            color: #000;
+          }
+        }
+  
+        &.active a {
+          color: #000;
+          border-bottom: 2px solid #000;
+        }
+      }
+    }
+  
+    .tab-content {
+      padding: 20px;
+      border: 1px solid #ddd;
+      border-top: none;
+    }
+  }
+  

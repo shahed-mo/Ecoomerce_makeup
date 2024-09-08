@@ -1,0 +1,232 @@
+[
+  {
+    "id": 1,
+    "name": "creme z",
+    "category": "Body Oil",
+    "image_link": "https://biagiotti.qodeinteractive.com/wp-content/uploads/2019/07/Shop-img-29-300x389.jpg",
+    "price": 46.00,
+    "date": "2024-01-15T00:00:00Z",
+    "popularity": 80,
+    "rating": 4.5
+  },
+  {
+    "id": 2,
+    "name": "balm",
+    "category": "Body Oil",
+    "image_link": "https://biagiotti.qodeinteractive.com/wp-content/uploads/2019/07/Shop-img-30-300x389.jpg",
+    "price": 25.00,
+    "date": "2024-03-10T00:00:00Z",
+    "popularity": 90,
+    "rating": 4.0
+  },
+  {
+    "id": 3,
+    "name": "easy spray",
+    "category": "Body Oil",
+    "image_link": "https://biagiotti.qodeinteractive.com/wp-content/uploads/2019/07/Shop-img-31-300x389.jpg",
+    "price": 28.00,
+    "date": "2024-02-05T00:00:00Z",
+    "popularity": 140,
+    "rating": 3.8
+  },
+  {
+    "id": 4,
+    "name": "tnt balm",
+    "category": "Body Oil",
+    "image_link": "https://biagiotti.qodeinteractive.com/wp-content/uploads/2019/08/Shop-img-63-300x389.jpg",
+    "price": 25.00,
+    "date": "2024-04-20T00:00:00Z",
+    "popularity": 150,
+    "rating": 4.2
+  },
+  {
+    "id": 5,
+    "name": "lip gloss deluxe",
+    "category": "Lip Gloss",
+    "image_link": "https://biagiotti.qodeinteractive.com/wp-content/uploads/2019/07/Shop-img-32-300x389.jpg",
+    "price": 15.00,
+    "date": "2024-05-15T00:00:00Z",
+    "popularity": 200,
+    "rating": 4.7
+  },
+  {
+    "id": 6,
+    "name": "organic perfume spray",
+    "category": "Organic Perfumes",
+    "image_link": "https://biagiotti.qodeinteractive.com/wp-content/uploads/2019/07/Shop-img-33-300x389.jpg",
+    "price": 60.00,
+    "date": "2024-06-20T00:00:00Z",
+    "popularity": 120,
+    "rating": 4.9
+  },
+  {
+    "id": 7,
+    "name": "moisturizing cream",
+    "category": "Moisturizing",
+    "image_link": "https://biagiotti.qodeinteractive.com/wp-content/uploads/2019/07/Shop-img-34-300x389.jpg",
+    "price": 35.00,
+    "date": "2024-07-05T00:00:00Z",
+    "popularity": 110,
+    "rating": 4.4
+  },
+  {
+    "id": 8,
+    "name": "applicator sponge",
+    "category": "Applicators",
+    "image_link": "https://biagiotti.qodeinteractive.com/wp-content/uploads/2019/07/Shop-img-35-300x389.jpg",
+    "price": 10.00,
+    "date": "2024-07-25T00:00:00Z",
+    "popularity": 100,
+    "rating": 4.3
+  },
+  {
+    "id": 9,
+    "name": "skin solutions serum",
+    "category": "Skin Solutions",
+    "image_link": "https://biagiotti.qodeinteractive.com/wp-content/uploads/2019/07/Shop-img-36-300x389.jpg",
+    "price": 75.00,
+    "date": "2024-08-01T00:00:00Z",
+    "popularity": 170,
+    "rating": 4.6
+  },
+  {
+    "id": 10,
+    "name": "face mask sheet",
+    "category": "Cosmetic Face Masks",
+    "image_link": "https://biagiotti.qodeinteractive.com/wp-content/uploads/2019/07/Shop-img-37-300x389.jpg",
+    "price": 12.00,
+    "date": "2024-08-10T00:00:00Z",
+    "popularity": 210,
+    "rating": 4.8
+  },
+  {
+    "id": 11,
+    "name": "Nail Polish",
+    "category": "Applicators",
+    "image_link": "https://biagiotti.qodeinteractive.com/wp-content/uploads/2019/07/Shop-img-38-300x389.jpg",
+    "price": 18.00,
+    "date": "2024-06-25T00:00:00Z",
+    "popularity": 180,
+    "rating": 4.9
+  },
+  {
+    "id": 12,
+    "name": "shine lip gloss",
+    "category": "Lip Gloss",
+    "image_link": "https://biagiotti.qodeinteractive.com/wp-content/uploads/2019/07/Shop-img-39-300x389.jpg",
+    "price": 20.00,
+    "date": "2024-07-10T00:00:00Z",
+    "popularity": 190,
+    "rating": 4.6
+  },
+  {
+    "id": 13,
+    "name": "pink lipstick",
+    "category": "Lips",
+    "image_link": "https://biagiotti.qodeinteractive.com/wp-content/uploads/2019/07/Shop-img-40-300x389.jpg",
+    "price": 65.00,
+    "date": "2024-07-30T00:00:00Z",
+    "popularity": 140,
+    "rating": 4.7
+  },
+  {
+    "id": 14,
+    "name": "pure essence perfume",
+    "category": "Organic Perfumes",
+    "image_link": "https://biagiotti.qodeinteractive.com/wp-content/uploads/2019/07/Shop-img-41-300x389.jpg",
+    "price": 70.00,
+    "date": "2024-08-15T00:00:00Z",
+    "popularity": 160,
+    "rating": 4.8
+  },
+  {
+    "id": 15,
+    "name": "Micellar Water",
+    "category": "Applicators",
+    "image_link": "https://biagiotti.qodeinteractive.com/wp-content/uploads/2019/07/Shop-img-30-300x389.jpg",
+    "price": 65.00,
+    "date": "2024-03-10T00:00:00Z",
+    "popularity": 90,
+    "rating": 7.0
+  },
+  {
+    "id": 16,
+    "name": "hand cream",
+    "category": "Foundation",
+    "image_link": "https://biagiotti.qodeinteractive.com/wp-content/uploads/2019/07/Shop-img-2-765x1024.jpg",
+    "price": 52.00,
+    "date": "2024-03-10T00:00:00Z",
+    "popularity": 90,
+    "rating": 7.0
+  },
+  {
+    "id": 17,
+    "name": "eye drops",
+    "category": "Foundation",
+    "image_link": "https://biagiotti.qodeinteractive.com/wp-content/uploads/2019/07/Shop-img-4-300x389.jpg",
+    "price": 18.00,
+    "date": "2024-03-12T00:00:00Z",
+    "popularity": 70,
+    "rating": 8.0
+  },
+  {
+    "id": 18,
+    "name": "gula cream",
+    "category": "Foundation",
+    "image_link": "https://biagiotti.qodeinteractive.com/wp-content/uploads/2019/07/Shop-img-7-300x389.jpg",
+    "price": 46.00,
+    "date": "2024-03-11T00:00:00Z",
+    "popularity": 50,
+    "rating": 5.0
+  },
+  {
+    "id": 19,
+    "name": "luxury perfume",
+    "category": "Perfumes",
+    "image_link": "https://biagiotti.qodeinteractive.com/wp-content/uploads/2019/07/Shop-img-42-300x389.jpg",
+    "price": 85.00,
+    "date": "2024-08-22T00:00:00Z",
+    "popularity": 150,
+    "rating": 4.9
+  },
+  {
+    "id": 20,
+    "name": "elegant fragrance",
+    "category": "Perfumes",
+    "image_link": "https://biagiotti.qodeinteractive.com/wp-content/uploads/2019/07/Shop-img-43-300x389.jpg",
+    "price": 95.00,
+    "date": "2024-08-30T00:00:00Z",
+    "popularity": 130,
+    "rating": 4.8
+  },
+  {
+    "id": 21,
+    "name": "modern scent",
+    "category": "Uncategorized",
+    "image_link": "https://biagiotti.qodeinteractive.com/wp-content/uploads/2019/07/Shop-img-44-300x389.jpg",
+    "price": 30.00,
+    "date": "2024-08-25T00:00:00Z",
+    "popularity": 80,
+    "rating": 4.5
+  },
+  {
+    "id": 22,
+    "name": "trendy perfume",
+    "category": "Uncategorized",
+    "image_link": "https://biagiotti.qodeinteractive.com/wp-content/uploads/2019/07/Shop-img-45-300x389.jpg",
+    "price": 55.00,
+    "date": "2024-08-26T00:00:00Z",
+    "popularity": 70,
+    "rating": 4.6
+  },
+  {
+    "id": 23,
+    "name": "vivid lipstick",
+    "category": "Lips",
+    "image_link": "https://biagiotti.qodeinteractive.com/wp-content/uploads/2019/07/Shop-img-46-300x389.jpg",
+    "price": 45.00,
+    "date": "2024-08-27T00:00:00Z",
+    "popularity": 130,
+    "rating": 4.7
+  }
+]

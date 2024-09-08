@@ -1,0 +1,168 @@
+/* Back.scss */
+.Background {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+  }
+  
+  .imges {
+    flex: 1 1 50%; /* Each image takes up half the width of the container */
+    height: 600px; /* Adjust based on your design */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    align-items: center;
+    text-align: left; /* Ensure text is aligned to the left */
+  }
+  
+  .back_content {
+    position: absolute;
+    z-index: 2;
+    text-align: left; 
+    padding: 20px;
+    width: 80%; 
+    max-width: 500px;
+    margin: 0 70px; 
+  }
+  
+  .title {
+    display: block;
+    margin: 0 0 0 0;
+    font-family: "Dancing Script", cursive;
+    color: #d1d1d1;
+    font-size: 42px;
+    line-height: 1.267em;
+    font-weight: 400;
+    text-align: left; 
+  }
+  
+  .header {
+    font-family: "Lato", sans-serif;
+    font-size: 30px;
+    line-height: 1.267em;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    color: #000;
+    margin-top:-20px; /* Add margin for spacing */
+    margin-bottom: 10px;
+    text-align: left; /* Align text to the left */
+  }
+  .par1 {
+    color: #5a5a5a;
+    font-family: Cormorant;
+    font-size: 20px !important;
+    line-height: 1.136em;
+    font-style: italic;
+    letter-spacing: 0;
+    text-transform: none;
+  }
+  
+  .par2 {
+    font-family: Cormorant, serif;
+    color: #838383;
+    font-size: 17px;
+    text-transform: none;
+    letter-spacing: normal;
+    margin: 18px 0 0;
+  }
+
+  .btn2 {
+    margin-top: 40px !important;
+    color: #000;
+    background-color: transparent;
+    border: 1px solid #000 !important;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    width: auto;
+    margin: 0;
+    font-family: "Lato", sans-serif;
+    font-size: 12px;
+    line-height: 2em;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    border-radius: 0 !important;
+    outline: 0;
+    cursor: pointer;
+    box-sizing: border-box;
+    transition: color .2s ease-in-out, background-color .2s ease-in-out, border-color .2s ease-in-out;
+    padding: 13px 48px !important;
+    text-decoration: none; /* Remove underline from the link */
+  }
+  
+  .btn2:hover {
+    color: #fff !important;
+    background-color: #000 !important;
+  }
+  
+  .mkdf-btn-text {
+    display: inline-block;
+    transition: color .2s ease-in-out;
+  }
+.icon2{
+    position: absolute;
+    left: 50%;
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    background-color: #000;
+    border: 1px solid #000;
+    box-sizing: border-box;
+     display: flex;
+     align-items: center;
+    justify-content: center;
+    color: #fff;
+    transition: background-color .3s ease-in-out;
+    padding: 20px;
+    &:hover{
+        background: transparent;
+        color: #000;
+    }
+}
+
+/* Modal.scss */
+.modal-overlay {
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  
+  .modal-content {
+
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    color: #fff !important;
+    position: relative;
+  }
+  
+  .modal-close {
+    position: absolute;
+    top: 0%;
+    right:10%;
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    color: #fff !important;
+  }
+    
+@media (max-width: 992px) {
+   .Background{
+    display: block;
+   }
+   .icon2{
+    left: 40%;
+    }}
+
+    

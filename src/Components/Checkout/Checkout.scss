@@ -1,0 +1,203 @@
+.checkout-form-container {
+    margin-top: 100px;
+    margin-bottom: 50px;
+  
+    h1, h4 {
+      margin-bottom: 20px;
+    }
+  
+    .order-summary {
+      margin-bottom: 40px;
+  
+      table {
+        width: 100%;
+        border-collapse: collapse;
+  
+        th, td {
+          text-align: left;
+          padding: 10px;
+          border-bottom: 1px solid #ccc;
+        }
+  
+        th {
+          font-weight: 600;
+        }
+      }
+    }
+  
+    .checkout-form {
+      .form-group {
+        margin-bottom: 20px;
+      }
+  
+      label {
+        font-weight: 400;
+        font-size: 17px;
+        font-family: Cormorant;
+        color: #838383;
+        margin: 0px 0px 4px;
+      }
+  
+      .form-control {
+        position: relative;
+        width: 100%;
+        margin: 0 0 16px;
+        padding: 12px 16px;
+        font-family: Cormorant, serif;
+        font-size: 18px;
+        font-weight: 500;
+        font-style: italic;
+        color: #5a5a5a;
+        background-color: transparent;
+        border: 1px solid #cbcbcb;
+        border-radius: 0;
+        outline: 0;
+        cursor: text;
+        box-sizing: border-box;
+        transition: border-color .2s ease-in-out;
+  
+        &:focus {
+          border-color: #000;
+          box-shadow: none;
+        }
+      }
+  
+      textarea.form-control {
+        height: 100px;
+      }
+  
+      .btn-checkout {
+        position: relative;
+        display: inline-block;
+        width: auto;
+        font-family: Lato, sans-serif;
+        font-size: 12px;
+        line-height: 2em;
+        text-transform: uppercase;
+        letter-spacing: .2em;
+        padding: 13px 48px;
+        color: #fff;
+        background-color: #000;
+        border: 1px solid #000;
+        transition: color .2s ease-in-out, background-color .2s ease-in-out, border-color .2s ease-in-out;
+  
+        &:hover {
+          background-color: transparent;
+          color: #000;
+          border-color: #000;
+        }
+      }
+    }
+  }
+.order-summary{
+    table{
+        margin-left: 0 !important;
+    }
+}  
+.check{
+    background-color:#ebebebfb;
+    margin-top: 100px;
+    width:100%;
+    margin-bottom: 50px;
+   display: flex;
+   align-items: center;
+   height: 200px;
+   h1{
+    font-family: Lato, sans-serif;
+    font-size: 20px;
+    line-height: 1.353em;
+    letter-spacing: 0.075em;
+    text-transform: uppercase;
+    color: #000;
+    position: relative;
+    left: 100px;
+   }
+}
+.empty-cart-message{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    h4{
+    font-family: Lato, sans-serif;
+    font-size: 25px !important;
+    line-height: 1.353em;
+    letter-spacing: 0.075em;
+    text-transform: uppercase;
+    color: #000;
+    position: relative;
+    
+    }
+    p{
+        font-family: Cormorant, sans-serif;
+        color: #565555;
+        font-size: 20px !important;
+        line-height: 1.353em;
+    }
+}
+
+.order-summary {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  margin-top: 20px;
+  max-width: 400px; // Optional: set a max-width to keep it compact
+
+  h5 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #333;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+  }
+
+  .order-item,
+  .order-total {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+  }
+
+  .order-item {
+    border-bottom: 1px solid #eee;
+
+    span {
+      font-size: 16px;
+      color: #333;
+    }
+  }
+
+  .order-total {
+    font-weight: bold;
+    margin-top: 10px;
+
+    h5 {
+      font-size: 16px;
+      color: #333;
+      margin: 0; // Remove margin for total labels
+    }
+
+    span {
+      font-size: 16px;
+      color: #333;
+    }
+  }
+
+  .order-summary-header {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+  }
+}
+h3{
+  font-family: Lato, sans-serif;
+    font-size: 24px;
+    line-height: 1.208em;
+    letter-spacing: .045em;
+    text-transform: uppercase;
+    color: #000;
+}

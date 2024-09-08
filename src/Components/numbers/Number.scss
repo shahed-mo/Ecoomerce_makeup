@@ -1,0 +1,62 @@
+.Numbers {
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap; // This will allow the `num` items to wrap if there are multiple in a row
+    padding-top: 15px;
+  
+    .num {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex: 1; 
+      padding: 1.5rem; 
+    }
+  
+    .img {
+      position: relative;
+      top: 5px;
+      width: 92px !important;
+      height: 84px;
+      max-width: none;
+    }
+  
+    .text {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      margin-left: 1rem; // Add some space between the image and the text
+  
+      .title {
+        font-family: "Lato", sans-serif;
+        font-size: 17px;
+        line-height: 1.353em;
+        letter-spacing: 0.075em;
+        text-transform: uppercase;
+        color: #000;
+      }
+  
+      .par {
+        font-family: "Cormorant", serif;
+        color: #838383;
+        font-size: 17px;
+        text-transform: none;
+        letter-spacing: normal;
+       
+  
+        p {
+          margin: 0; // Remove default margin from paragraph
+        }
+      }
+    }
+  }
+  
+  
+@media (max-width: 992px) {
+    .num{
+        padding: 0; 
+        display: block;
+    }
+    }

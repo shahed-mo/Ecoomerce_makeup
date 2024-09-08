@@ -1,0 +1,422 @@
+.container{
+ gap: 70px;
+ .imgcomponent{
+      h2{
+    font-family: Lato, sans-serif;
+    font-size: 30px;
+    line-height: 1.267em;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    color: #000;
+        }
+     }
+     .price{
+        position: relative;
+    display: block;
+    margin: 4px 0 0;
+    font-family: Cormorant, serif;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    color: #000;
+     }
+     .star{
+        margin-top: 8px;
+        font-size: 17px;
+        font-family: Cormorant;
+        font-weight: 400;
+        color: #838383;
+     }
+    .small-description{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+    margin: 20px 0 0;
+    p{
+        font-size: 17px;
+        font-family: Cormorant;
+        font-weight: 400;
+        color: #838383 !important;
+    }
+     }
+}
+.back {
+    text-align: center;
+    margin-bottom: 7rem !important;
+  }
+  
+  .gallery {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-bottom:4rem;
+  
+    .main-img {
+        width: 450px;
+      flex: 1;
+      img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+      }
+    }
+  
+    .images {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      width:130px;
+      img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+      }
+    }
+  }
+
+  .count{
+    margin-top: 2.2rem;
+    display: flex;
+    gap: 3rem;
+  }
+.button-stand{
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    width: auto;
+    margin: 0;
+    font-family: Lato, sans-serif;
+    font-size: 12px;
+    line-height: 2em;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    border-radius: 0;
+    outline: 0;
+    cursor: pointer;
+    box-sizing: border-box;
+    transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+    padding: 13px 48px;
+    color: #fff;
+    background-color: #000;
+    border: 1px solid #000;
+    cursor: pointer;
+    z-index: 3;
+    &:hover{
+        background-color: transparent;
+        color: #000;
+    }
+}
+li{
+  list-style: none;
+}
+.navtabs{
+  margin-bottom: 3rem;
+  ul{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+    position: relative;
+   
+  }
+  li{
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    padding: 12px 59px 16px;
+    font-family: Cormorant, serif;
+    font-size: 20px;
+    font-style: italic;
+    color: #5a5a5a;
+    border: 1px solid #d7d7d7;
+   position: relative;
+   left: 60px;
+    transition: border-color .2s ease-out;
+    &.active{
+      border: 1px solid #000;
+      color: #000;
+    }
+
+  }
+  
+}
+.desc{
+  font-family: Cormorant;
+  font-size: 17px;
+  color: #838383;
+  padding: 20px 90px;
+ 
+}
+.tab-content{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+ 
+}
+#tab-additional_information{
+  table{
+    margin-top: 1rem;
+    margin-left: 0px !important;
+    position: relative;
+    left: 100px;
+    tr{
+      border-bottom: none;
+      margin-top: 8px;
+    }
+  
+  }
+
+ .woocommerce-product-attributes-item__value{
+    position: relative;
+    left: 0px;
+    padding: 5px;
+    font-size: 17px;
+    font-family: Cormorant;
+    color: #838383;
+  }
+}
+.woocommerce-product-attributes-item__label{
+  width: 1%;
+    padding: 0 10px 0 0;
+    font-weight: 400;
+    font-family: Lato, sans-serif;
+    font-size: 12px;
+    line-height: 1.917em;
+    text-transform: uppercase;
+    color: #000;
+    line-height: 23px;
+}
+ .woocommerce-tabs table td {
+  width: 99%;
+  line-height: 23px;
+}
+
+#tab-reviews{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  position: relative;
+  left: 70px;
+  padding: 20px;
+  .woocommerce-Reviews-title{
+    font-size: 18px;
+      line-height: 24px;
+      margin: 8px 0 24px;
+      font-family: Lato, sans-serif;
+      font-weight: 400;
+      text-transform: uppercase;
+  }
+  .commentlist{
+    display: block;
+  }
+}
+.fax {
+  position: relative !important;
+  vertical-align: top !important;
+  font-family: Cormorant, serif !important;
+  font-size: 20px !important;
+  font-style: italic !important;
+  color: #5a5a5a !important;
+  position: relative !important; 
+  transition: border-color 0.2s ease-out !important;
+  border: none !important;
+  padding: 0 !important;
+  left: 0 !important;
+  z-index: 10;
+}
+.rating{
+  font-size: 17px;
+  font-family: Cormorant;
+  color: #838383;
+}
+.stars{
+  color: gray;
+  svg{
+    margin-right: 5px;
+  }
+}
+textarea{
+  position: relative;
+    width: 1000px;
+    height: 200px;
+    margin: 0 0 16px;
+    padding: 12px 16px;
+    font-family: Cormorant, serif;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: italic;
+    color: #5a5a5a;
+    background-color: transparent;
+    border: 1px solid #cbcbcb;
+    border-radius: 0;
+    outline: 0;
+    cursor: text;
+    box-sizing: border-box;
+    transition: border-color .2s ease-in-out;
+    &::placeholder{
+      font-size: 17px;
+  font-family: Cormorant;
+  color: #838383;
+
+    }
+    
+}
+.input{
+  position: relative;
+width: 100%;
+margin: 0 0 16px;
+padding: 12px 16px;
+font-family: Cormorant, serif;
+font-size: 18px;
+font-weight: 500;
+font-style: italic;
+color: #5a5a5a;
+background-color: transparent;
+border: 1px solid #cbcbcb;
+border-radius: 0;
+outline: 0;
+cursor: text;
+box-sizing: border-box;
+transition: border-color .2s ease-in-out;
+&::placeholder{
+  font-size: 17px;
+font-family: Cormorant;
+color: #838383;
+
+}
+
+}
+.comment-form-cookies-consent{
+  display: flex;
+  gap: 4px;
+}
+#submit{
+  position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    width: auto;
+    margin: 0;
+    font-family: Lato, sans-serif;
+    font-size: 12px;
+    line-height: 2em;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    border-radius: 0;
+    outline: 0;
+    cursor: pointer;
+    box-sizing: border-box;
+    transition: color .2s ease-in-out, background-color .2s ease-in-out, border-color .2s ease-in-out;
+    padding: 13px 48px;
+    color: #fff;
+    background-color: #000;
+    border: 1px solid #000;
+    cursor: pointer;
+    z-index: 3;
+    &:hover{
+      color: #000;
+      background-color: transparent;
+    }
+
+}
+.comment_container{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+  .comment-text{
+     font-size: 17px;
+    font-family: Cormorant;
+    color: #838383;
+    p{
+      margin-bottom: 0 !important;
+    }
+  }
+}
+.relatedproduct{
+  h2{
+    font-family: Lato, sans-serif;
+    font-size: 24px;
+    line-height: 1.267em;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    color: #000;
+  }
+}
+.relatedproduct {
+  
+
+  h2 {
+    margin-bottom: 1rem;
+    position: relative;
+    left: 100px;
+  }
+
+  .card-container {
+    position: relative;
+    left: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 30px;
+  }
+}
+
+
+@media (max-width:992px) {
+  .back {
+   width:100%;
+}
+.card-container{
+  left: 0 !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.navtabs li{
+  left: 0;
+  padding: 0 !important;
+}
+ .d-flex{
+  flex-direction: column;
+  gap: 0;
+ } 
+ textarea {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin: 0 0 16px;
+  padding: 12px 16px;
+  font-family: Cormorant, serif;
+  font-size: 18px;
+  font-weight: 500;
+  font-style: italic;
+  color: #5a5a5a;
+  background-color: transparent;
+  border: 1px solid #cbcbcb;
+  border-radius: 0;
+  outline: 0;
+  cursor: text;
+  box-sizing: border-box;
+  
+  transition: border-color 0.2s ease-in-out;
+}
+.navtabs ul{
+  margin-top: 100px;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.relatedproduct h2 {
+  margin-bottom: 1rem;
+  position: relative;
+  left: 0px !important;
+  text-align: center;
+}
+}

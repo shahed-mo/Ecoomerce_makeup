@@ -1,0 +1,325 @@
+
+// In your Home.scss file
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+$dark-color:#1d1d1d;
+$white-color:#fff;
+$bg-color:#F1F1FF;
+$main-color:#DB4444;
+$container-lg:4rem;
+$container-md:2.5rem;
+$container-sm:1rem;
+$container-block-md:4rem;
+$container-block-sm:2.5rem;
+.content {
+  position: absolute;
+  top: 20%;
+  left: 0;
+  width: 40%;
+  padding: 1.25rem;
+  color: #fff;
+  text-align: left;
+  opacity: 0; // Initially hidden
+ 
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translatex(-40px); // Start slightly below
+    }
+    to {
+      opacity: 1;
+      transform: translatex(0); // End at normal position
+    }
+  }
+
+  h3 {
+    z-index: 9;
+    font-family: Lato;
+    height: auto;
+    width: auto;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    text-decoration: none;
+    white-space: nowrap;
+    min-height: 0px;
+    min-width: 0px;
+    max-height: none;
+    max-width: none;
+    text-align: left;
+    line-height: 60px;
+    letter-spacing: 5px;
+    font-weight: 300;
+    font-size: 68px;
+    backdrop-filter: none;
+    filter: none;
+    transform-origin: 50% 50%;
+    opacity: 1;
+    transform: translate(0px, 0px);
+    visibility: visible;
+  }
+
+  p {
+    z-index: 9;
+    font-family: Cormorant;
+    font-style: italic;
+    height: auto;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    white-space: normal;
+    width: 632px;
+    min-height: 0px;
+    min-width: 0px;
+    max-height: none;
+    max-width: none;
+    text-align: left;
+    line-height: 27px;
+    letter-spacing: 0px;
+    font-weight: 500;
+    font-size: 22px;
+    backdrop-filter: none;
+    filter: none;
+    transform-origin: 50% 50%;
+    opacity: 1;
+    transform: translate(0px, 0px);
+    visibility: visible;
+  }
+}
+
+#btn {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  position: absolute;
+  left: 10%;
+  top:53%;
+  width: auto;
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  font-size: 12px;
+  line-height: 2em;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: .2em;
+  border-radius: 0;
+  outline: 0;
+  cursor: pointer;
+  box-sizing: border-box;
+  transition: color .2s ease-in-out, background-color .2s ease-in-out, border-color .2s ease-in-out;
+  padding: 13px 48px;
+  cursor: pointer;
+  &:hover {
+    background: transparent !important;
+    color: #fff;
+  }
+}
+
+.carousel-control-next-icon,.carousel-control-prev-icon {
+  display: inline-block;
+  width: 3rem !important;
+  height: 3rem !important;
+  color: #ffffff;
+  display: flex !important;
+  align-items: center;
+  justify-content: space-around;
+  width: auto;
+  height: 41px;
+  padding: 0;
+  margin: 0;
+  color: #000000;
+  background: none;
+  border: 0;
+  border-radius: 0;
+  outline: none;
+  z-index: 100;
+}
+
+.carousel-control-next-icon::before {
+  content: 'Next';
+  font-family: 'Cormorant', serif;
+  font-size: 18px;
+  font-style: italic;
+  color: currentColor;
+  transition: .3s ease-out;
+  color: #000;
+  margin-right: 40px;
+}
+.carousel-control-prev-icon::after {
+  content: 'prev';
+  font-family: 'Cormorant', serif;
+  font-size: 20px;
+  font-style: italic;
+  color: currentColor;
+  transition: .3s ease-out;
+  color: #000;
+  margin-left: 40px;
+}
+// In your Home.scss file
+
+.carousel-item .content{
+  opacity: 0;
+  transition: opacity 1s ease-in-out; // Smooth transition
+  animation: fadeIn s forwards; // Add animation
+
+  & .active {
+    
+    opacity: 1;
+  }
+}
+
+.content {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  width: 40%;
+  padding: 1.25rem;
+  color: #fff;
+  text-align: left;
+  opacity: 0;
+  transition: opacity 1s ease-in-out; // Smooth transition
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateX(-40px); // Start slightly from the left
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0); // End at normal position
+    }
+  }
+
+  h3 {
+    font-family: Lato;
+    font-size: 68px;
+    color: #000;
+    text-transform: uppercase;
+    line-height: 60px;
+    letter-spacing: 5px;
+    font-weight: 300;
+    opacity: 1;
+  }
+
+  p {
+    font-family: "Cormorant";
+    font-style: italic;
+    color: #fff;
+    font-size: 22px;
+    line-height: 27px;
+    opacity: 1;
+  }
+}
+
+.carousel-item {
+  position: relative;
+
+  &:hover .content {
+    opacity: 1; // Show content on hover
+  }
+}
+
+.carousel-item.active .content {
+  opacity: 1; // Show content when slide is active
+  animation: fadeIn 1s forwards; // Add animation
+}
+
+#btn {
+  position: absolute;
+  left: 10%;
+  padding: 13px 48px;
+  font-family: "Lato", sans-serif;
+  font-size: 12px;
+  line-height: 2em;
+  text-transform: uppercase;
+  letter-spacing: .2em;
+  border-radius: 0;
+  border: 1px solid #fff;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color .2s ease-in-out, color .2s ease-in-out;
+  
+  &:hover {
+    background: transparent;
+    color: #fff;
+  }
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  width: 3rem !important;
+  height: 3rem !important;
+  color: #000;
+  background: none;
+  border: 0;
+  border-radius: 0;
+  z-index: 100;
+}
+
+.carousel-control-next-icon::before {
+  content: 'Next';
+  font-family: 'Cormorant', serif;
+  font-size: 18px;
+  font-style: italic;
+  color: currentColor;
+}
+
+.carousel-control-prev-icon::after {
+  content: 'Prev';
+  font-family: 'Cormorant', serif;
+  font-size: 10px;
+  font-style: italic;
+  color: currentColor;
+}
+
+
+
+.mySwiper{
+  background-image: url('./src/assets/Imges/background.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; // Ensure background doesn't repeat
+  overflow: hidden; // Hide any overflow to prevent white space from appearing
+  .swiper-button-next,
+  .swiper-button-prev {
+    color: #000; /* Change this to the color you want */
+    width: 10px; /* Adjust width to make the buttons smaller */
+    height: 10px; /* Adjust height to make the buttons smaller */
+    padding: 10px; /* Add padding around the buttons */
+    font-weight: lighter;
+    top: 60%;
+    line-height: 1;
+    }
+
+  .swiper-button-next {
+    right: 15%; /* Adjust position as needed */
+  }
+
+  .swiper-button-prev {
+    left: 15%; /* Adjust position as needed */
+  }
+  .swiper-pagination-bullet-active {
+    background:#000;
+}
+}
+.imgr{
+  height: 91vh !important;
+}
+
+@media (max-width: 992px) {
+  .swiper-pagination {
+   display: none;
+  }
+  .imgr{
+    height:92vh !important;
+  }
+  #btn{
+    top:70%;
+  }
+  }
+  .shop-menu-items{
+    font-family: Cormorant, serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #cfcfcf;
+    text-transform: capitalize;
+  }

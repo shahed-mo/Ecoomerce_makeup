@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+.Slider3 {
+  text-align: center;
+  
+  padding: 40px 0;
+  width: 100%;
+
+  .mkdf-testimonial {
+    font-family: "Dancing Script", cursive;
+    font-size: 45px;
+    color: #cfc4c4;
+    padding-top: 40px;
+    margin-bottom: 0;
+  }
+
+  .testimonial {
+    font-family: "Inter", sans-serif;
+    font-size: 30px;
+    line-height: 1.267em;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 400;
+    margin-top: -20px;
+  }
+
+  .mkdf-testimonial-text {
+    font-family: "Inter", sans-serif;
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 21px;
+    font-size: 22px;
+    line-height: 1.2;
+    font-style: italic;
+    color: #2d2d2dcf;
+  }
+
+  .header4 {
+    font-family: "Cormorant", serif;
+    color: #838383;
+    font-size: 19px !important;
+    margin-top: 26px;
+    text-transform: none;
+    letter-spacing: normal;
+    &::before{
+        content: '- ';
+        position: relative;
+        display: inline-block;
+         bottom: 0;
+         top: 0;
+         color: #838383;
+    }
+    &::after{
+        content: ' -';
+        position: relative;
+        display: inline-block;
+         bottom: 0;
+         top: 0;
+         color: #838383;
+    }
+  }
+  
+}
+
+
+.swiper-container {
+  overflow: hidden; // Hide overflow on the Swiper container
+}
+
+.swiper-slide {
+  padding: 0; // Ensure no extra padding on slides
+  margin: 0; // Ensure no extra margin on slides
+}
+
+@media (max-width: 992px) {
+    .mkdf-testimonial-text {
+        width: 85% !important;
+        margin: 0 auto;
+        padding: 0px 0 0;
+        font-size: 18px !important;
+        line-height: 30px;
+        font-style: italic;
+        color: #2d2d2d;
+    }
+      .swiper-button-next, .swiper-button-prev {
+        top:55% !important;
+         display: block;
+    }
+    .mySwiper .swiper-button-next {
+        right:5%;
+        font-size: 10px !important;
+    }
+    .mySwiper .swiper-button-prev {
+        left: 0%;
+    }
+    }

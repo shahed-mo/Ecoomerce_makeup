@@ -1,0 +1,28 @@
+.cardslider-item{
+    margin: 7rem 0;
+    .cardslider-item-img{
+        position: relative;
+       
+        .img{ 
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: auto;
+            opacity: 0;
+            will-change: opacity;
+            transition: opacity .15s ease-out;
+           
+        
+    }
+        .cardslider-item-img img{
+            width: 100%;
+            
+        }
+        &:hover .img{
+            opacity: 1;
+        } 
+    }
+}
+.img , .img2{
+    width: 189px !important;
+}

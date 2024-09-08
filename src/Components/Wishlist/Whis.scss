@@ -1,0 +1,230 @@
+.wishlist-container {
+  margin: 80px 0px;
+  border-radius: 8px;
+  max-width: 1200px;
+
+}
+
+.wishlist-title {
+  font-family: Lato, sans-serif;
+  font-size: 40px !important;
+  line-height: 1.2em;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #000;
+  height: 240px;
+  background-color: #fbf9f9;
+  width: 100%; /* Change to 100% for responsiveness */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px;
+  width: 1515px;
+}
+
+.wishlist-empty {
+  text-align: center;
+  position: relative;
+  left: 100px;
+}
+
+.wishlist-empty-text {
+  font-size: 17px;
+  text-transform: capitalize;
+  font-family: Cormorant, sans-serif;
+  color: #838383;
+  line-height: 38px;
+  padding: 70px 0px;
+  text-align: center;
+}
+
+.wishlist-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-left: 0;
+}
+
+.wishlist-table th,
+.wishlist-table td {
+  padding: 10px;
+  text-align: left;
+}
+
+.wishlist-remove {
+  width: 50px;
+}
+
+.wishlist-thumbnail {
+  width: 100px;
+}
+
+.wishlist-item {
+  border-bottom: 1px solid #cbcbcb;
+}
+
+.remove-btn {
+  background: none;
+  border: none;
+  color: #e74c3c;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.remove-btn:hover {
+  color: #c0392b;
+}
+
+.wishlist-price .price-amount {
+  font-weight: bold;
+}
+
+.wishlist-name span {
+  color: black;
+  font-size: 16px;
+  visibility: visible;
+  display: inline;
+}
+
+.btn_add {
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  width: auto;
+  margin: 0;
+  font-family: Lato, sans-serif;
+  font-size: 12px;
+  line-height: 2em;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  border-radius: 0;
+  outline: 0;
+  cursor: pointer;
+  box-sizing: border-box;
+  transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+  padding: 13px 48px;
+  color: #fff;
+  background-color: #000;
+  border: 1px solid #000;
+
+  &:hover {
+    background-color: transparent;
+    color: #000;
+  }
+}
+.w{
+  margin: 100px 0px;
+}
+table {
+  margin-left: 120px !important;
+  
+
+  tr {
+    border: 0;
+    border-bottom: 1px solid #cbcbcb;
+  }
+}
+
+
+.share {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 0px;
+  margin-bottom: 0rem;
+  left: 100px;
+
+  .share-item {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 3px; /* Adjusted gap */
+   
+  }
+
+  .sharelist {
+    position: absolute;
+    top: 100%; /* Appear under the share button */
+    right: 0;
+    display: flex;
+    flex-direction: column; /* Layout in column */
+    margin-top: 5px;
+    transition: visibility 0.2s ease, opacity 0.2s ease;
+    z-index: 99;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none; /* Prevent clicks when hidden */
+  }
+
+  /* Show sharelist on hover over the share-item or sharelist */
+  .share-item:hover + .sharelist,
+  .sharelist:hover {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto; /* Allow clicking when visible */
+  }
+
+  .iconsocial {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px; /* Square size */
+    height: 30px;
+    background-color: #fff;
+    border: 1px solid #dadada;
+    color: #616161;
+    border-radius: 5px; /* Small rounded corners */
+    transition: color 0.2s ease-out, background-color 0.2s ease-out;
+    padding: 5px;
+
+    &:hover {
+      color: #000; /* Darker hover color */
+      background-color: #f0f0f0; /* Light background on hover */
+    }
+  }
+
+  /* Ensure list items are well-aligned */
+  .sharelist li {
+    list-style: none;
+    background-color: #fff;
+  }
+
+  .sharelist li + li {
+    position: relative;
+  }
+}
+
+@media (max-width:992px){
+  .wishlist-container {
+    max-width: 800px;
+  
+  }
+  .wishlist-title {
+    width: 100%;
+  }
+  .table{
+    margin-left: 0 !important;
+    
+  }
+  .wishlist-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-left: 20px !important;
+    display: block;
+}
+.share{
+  left:60px;
+  width:100%;
+  justify-content: flex-start;
+  .sharelist {
+    left: 0px;
+  }
+}
+.wishlist-empty {
+  text-align: center;
+  position: relative;
+  left: 0px;
+}
+
+}

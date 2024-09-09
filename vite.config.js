@@ -7,7 +7,7 @@ export default defineConfig({
   build: {
     rollupOptions: {
       // Comment this out if mdb-react-ui-kit should be included
-      external: ['mdb-react-ui-kit']
+     
     }
   }
 });

@@ -3,7 +3,7 @@ import img2 from '../../assets/Imges/model_2.jpg';
 import img3 from '../../assets/Imges/lipstick.jpg';
 import imgTitle1 from '../../assets/Imges/m-h-slider-img-2.png';
 import imgTitle2 from '../../assets/Imges/m-h-slider-img-6.png';
-import { IoPlaySharp } from 'react-icons/io5';
+import { IoPlaySharp } from 'react-icons/io5'; // Import the IoPlaySharp icon
 import fWomen1 from '../../assets/Imges/fWomen_1.jpg';
 import fimg2 from '../../assets/Imges/fimg2.jpg';
 import women3 from '../../assets/Imges/women3.jpg';
@@ -14,7 +14,6 @@ import maskara from '../../assets/Imges/maskara.jpg';
 import fineimg2 from '../../assets/Imges/fineimg2.jpg';
 import brush from '../../assets/Imges/brush.jpg';
 import women5 from '../../assets/Imges/women5.jpg';
-import shadow from '../../assets/Imges/shadow.jpg';
 import lastwomen from '../../assets/Imges/lastwomen.jpg';
 import sunblock from '../../assets/Imges/sunblock.jpg';
 import roseLipstick from '../../assets/Imges/rose_lipstick.jpg';
@@ -22,6 +21,8 @@ import seerum from '../../assets/Imges/seerum.jpg';
 import shampoo from '../../assets/Imges/shampoo.jpg';
 import lipColor from '../../assets/Imges/lip_color.jpg';
 import losePoder from '../../assets/Imges/lose_poder.jpg';
+import women2 from '/src/assets/Imges/women_2.jpg';
+import shadow from '../../assets/Imges/shadow.jpg';
 import makeup from '../../assets/Imges/makeup.jpg';
 import client1 from '../../assets/Imges/client1.png';
 import client1_2 from '../../assets/Imges/client1_2.png';
@@ -46,6 +47,7 @@ import backgroundGirl from '../../assets/Imges/background_girl.jpg';
 import back2 from '../../assets/Imges/back2.jpg';
 import back3 from '../../assets/Imges/back3.jpg';
 import makeupBack from '../../assets/Imges/makeup_back.jpg';
+// Import images
 import small1 from '../../assets/Imges/small1.jpg';
 import small2 from '../../assets/Imges/small2.jpg';
 import small3 from '../../assets/Imges/small3.jpg';
@@ -65,6 +67,7 @@ import fontBack5 from '../../assets/Imges/fontback5.png';
 import font5 from '../../assets/Imges/font5.png';
 import women4 from '../../assets/Imges/women_4.jpg';
 import shadow2 from '../../assets/Imges/shadow2.jpg';
+import women1 from '../../assets/Imges/women_1.jpg';
 import brush1 from '../../assets/Imges/brush1.jpg';
 
 const last = [
